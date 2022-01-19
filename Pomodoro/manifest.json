@@ -15,9 +15,9 @@
       "32": "icon.png"
     },
     "default_title": "Pomodoro Extension",
-    "default_popup": "popup/popup.html"
+    "default_popup": "./popup/popup.html"
   },
-  "options_page": "option/option.html",
+  "options_page": "./option/option.html",
   "permissions": ["storage", "alarms", "notifications"],
   "background": {
     "service_worker": "background.js"
