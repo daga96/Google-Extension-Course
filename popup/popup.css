@@ -1,0 +1,70 @@
+body {
+  width: 300px;
+  height: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#time {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#button-container > button {
+  padding: 8px;
+  color: rgba(0, 0, 0, 0.6);
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#button-container > button:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 20px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+input[type="button"] {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(202, 86, 86);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
