@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Webtoon Search",
+  "description": "Search for Webtoons",
+  "version": "1.0",
+  "action": {
+    "default_title": "Webtoon Search",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus", "search", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
